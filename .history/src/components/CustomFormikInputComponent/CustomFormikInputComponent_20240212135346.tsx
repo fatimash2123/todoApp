@@ -1,3 +1,5 @@
+import React from "react";
+
 interface CustomFormikInputComponentProps {
   readonly field: any;
   readonly form: any;
@@ -22,4 +24,4 @@ function CustomFormikInputComponent({
     </>
   );
 }
-export default CustomFormikInputComponent;
+export default React.memo(CustomFormikInputComponent);
