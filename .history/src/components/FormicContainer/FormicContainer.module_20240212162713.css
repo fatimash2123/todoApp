@@ -1,0 +1,10 @@
+.formikContainer{
+    width:100%;
+    background-color: yellow;
+}
+.formMain{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+}

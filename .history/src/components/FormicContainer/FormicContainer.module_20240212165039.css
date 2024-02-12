@@ -1,0 +1,15 @@
+.formMain{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.upperContainer{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 70%;
+}

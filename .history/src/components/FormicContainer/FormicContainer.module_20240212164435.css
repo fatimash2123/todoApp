@@ -1,0 +1,9 @@
+.formMain{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}

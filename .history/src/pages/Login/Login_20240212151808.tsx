@@ -45,7 +45,7 @@ function Login() {
       <Formik
         initialValues={initialValues}
         validate={validate}
-        onSubmit={onSubmit}
+        onSubmit={(values:any)=>{console.log("on submit=",values)}}
       >
         {(formik) => {
             console.log(formik)

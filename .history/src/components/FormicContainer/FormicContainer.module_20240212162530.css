@@ -1,0 +1,7 @@
+.formMain{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    background-color: red;
+}

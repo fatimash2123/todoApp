@@ -1,0 +1,8 @@
+.formMain{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}

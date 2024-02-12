@@ -19,7 +19,7 @@ function Login() {
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
   const validate = (values: FormikState) => {
-    let errors:any={}
+    let errors: FormikState = { name: "", email: "", password: "" };
     console.log("values got in validate is=",values)
     if (!values.name) {
       errors.name = "Required";
@@ -76,7 +76,7 @@ function Login() {
                 }}
               </Field>
 
-              <button type="submit" onSubmit={()=>formik.handleSubmit} disabled={!formik.isValid}>
+              <button type="submit" disabled={!formik.isValid}>
                 Submit
               </button>
             </Form>
